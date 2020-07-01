@@ -1,0 +1,18 @@
+SecondExercise: max=1.7976931348623157e+308; min=2.2250738585072014e-308
+ThirdExercise: 
+	При a = 3, b = 2, c = 1 будет неверный ответ. Исправленная версия программы:
+	if a > b: M = a
+	else: M = b
+	if c > M: M = c
+FourthExercise: Программа будет выполнять бесконечно долго. Исправленная версия программы:
+	k = 0
+	while k < 10:
+		k += 1    
+		print ( "привет" )
+SixthExercise: 
+	def findMax(a,b,c):
+	    if a > b: M = a
+	    else: M = b
+	    if c > M: M = c
+	    return M
+SeventhExercise: https://theoryandpractice.ru/posts/7327-rekursiya
